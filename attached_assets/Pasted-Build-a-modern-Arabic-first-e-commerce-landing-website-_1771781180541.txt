@@ -1,0 +1,86 @@
+Build a modern Arabic-first e-commerce landing website for a socks brand called “شراريب ران” (Sharareeb Run).
+
+Goal:
+- Showcase the brand and products
+- Convert visitors to orders via WhatsApp and an Order form (no payment for now)
+- Mobile-first, fast, and clean
+
+Tech:
+- Use Next.js (App Router) + TypeScript + TailwindCSS
+- Responsive design, premium minimal style
+- Arabic RTL by default, with optional English toggle (AR/EN) saved in localStorage
+
+Pages:
+1) Home (main landing + products)
+2) /products (all products page)
+3) /about (brand story)
+4) /shipping (shipping & returns)
+5) /contact (contact + FAQ)
+6) /privacy (placeholder)
+7) /terms (placeholder)
+
+Data:
+- Store products in a local JSON file (src/data/products.json) for now
+- Each product: id, name_ar, name_en, price_sar, colors, sizes, images (use placeholders), description_ar, description_en, stock (number)
+
+Home sections (order):
+1) Navbar:
+   - Logo text: "شراريب ران"
+   - Links: المنتجات, قصتنا, الشحن والاسترجاع, تواصل معنا
+   - Language toggle AR/EN
+   - CTA button: "اطلب الآن"
+
+2) Hero:
+   - Big headline:
+     AR: "شراريب تريحك… وتكمل ستايلك"
+     EN: "Socks that feel good and look better"
+   - Subheadline:
+     AR: "خامات ممتازة، مقاسات مضبوطة، وتوصيل سريع داخل السعودية."
+     EN: "Premium materials, perfect fit, fast delivery in Saudi Arabia."
+   - CTAs:
+     - Primary: "تصفح المنتجات" (scroll to products)
+     - Secondary: "اطلب عبر واتساب" (WhatsApp link placeholder)
+
+3) Featured Products (grid of 6):
+   - Product cards show image, name, price, color dots, "أضف للسلة"
+   - Add simple cart drawer (side panel) with quantity controls
+
+4) Why Sharareeb Run (3-4 cards):
+   - Comfort fit
+   - Breathable fabric
+   - Durable stitching
+   - Stylish designs
+
+5) Best Sellers slider (optional)
+6) Reviews section (3 placeholders)
+7) FAQ accordion:
+   - كم مدة التوصيل؟
+   - هل فيه استبدال/استرجاع؟
+   - كيف أعرف المقاس؟
+   - هل الأسعار تشمل الضريبة؟
+
+8) Order Section (checkout form):
+   - Cart summary + total SAR
+   - Customer form fields:
+     name, phone, city, address, notes
+   - Submit behavior:
+     - Create a WhatsApp message pre-filled with order details (items, quantities, total, customer info)
+     - Also save the order locally (simple in-memory array or write to a JSON file for now)
+     - Show success message and clear cart
+
+Products page:
+- Filters: size, color, price range
+- Search box
+- Sort: newest, price low->high, best sellers (mock)
+
+Design requirements:
+- RTL when Arabic
+- Modern typography, good spacing, soft shadows, rounded corners
+- Lightweight animations on hover and section reveal
+- Use placeholder product images if needed
+
+Deliverables:
+- Working Next.js project
+- Reusable components (Navbar, ProductCard, CartDrawer, FAQ, Footer)
+- README with setup instructions (npm install, npm run dev)
+- Include a config file for WhatsApp number and brand social links
