@@ -11,13 +11,16 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           
           <div className="md:col-span-2">
-            <h2 className="text-2xl font-black tracking-tighter text-white mb-6">
-              شراريب ران.
-            </h2>
+            <div className="mb-6">
+              <h2 className="text-2xl font-black tracking-tighter text-white leading-none">
+                شراريب ران<span className="text-primary/60">.</span>
+              </h2>
+              <p className="text-[10px] font-medium tracking-tight text-zinc-500 mt-1">
+                {t('nav.tagline')}
+              </p>
+            </div>
             <p className="text-zinc-400 max-w-sm mb-6 leading-relaxed">
-              {useStore.getState().lang === 'ar' 
-                ? 'نقدم لك أفضل الجوارب المريحة والأنيقة التي تناسب أسلوب حياتك النشط اليومي.'
-                : 'Providing you with the best comfortable and stylish socks that fit your active daily lifestyle.'}
+              {t('content.mission')}
             </p>
             <div className="flex gap-4">
               <a href="#" className="h-10 w-10 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-white hover:text-black transition-colors">

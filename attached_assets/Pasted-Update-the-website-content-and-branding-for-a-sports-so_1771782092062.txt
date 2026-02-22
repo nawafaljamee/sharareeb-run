@@ -1,0 +1,138 @@
+Update the website content and branding for a sports socks brand called:
+
+"شراريب ران" (Sharareeb Run)
+
+IMPORTANT:
+This is a SPORTS PERFORMANCE brand. The tone must feel athletic, energetic, modern, and premium — similar to Nike / On Running / Gymshark style.
+Arabic is the primary language (RTL), but English must be professionally translated and match meaning exactly (not literal word-for-word translation).
+
+--------------------------------------------------
+BRAND TAGLINE (under logo)
+--------------------------------------------------
+
+Arabic:
+"أداء يبدأ من الأساس."
+
+English:
+"Performance starts from the foundation."
+
+Display tagline under the logo in hero and footer.
+
+--------------------------------------------------
+HERO SECTION (TOP OF HOMEPAGE)
+--------------------------------------------------
+
+Arabic Headline:
+"تحرّك براحة. تحرّك بثقة."
+
+English Headline:
+"Move in comfort. Move with confidence."
+
+Arabic Subheadline:
+"شراريب رياضية عالية الجودة مصممة لدعم أدائك اليومي — من التمارين إلى يومك الكامل."
+
+English Subheadline:
+"High-quality performance socks designed to support your movement — from workouts to everyday life."
+
+Primary CTA:
+Arabic: "تصفح المنتجات"
+English: "Shop Now"
+
+Secondary CTA:
+Arabic: "اطلب عبر واتساب"
+English: "Order via WhatsApp"
+
+--------------------------------------------------
+ABOUT / OUR STORY SECTION (قصتنا)
+--------------------------------------------------
+
+Section Title:
+Arabic: "قصتنا"
+English: "Our Story"
+
+Arabic Content:
+"بدأت شراريب ران بسؤال بسيط:
+لماذا لا يكون الجورب عالي الجودة فعلًا؟
+
+لاحظنا أن كثيرًا من الشرابات تُصنع كمنتج ثانوي لا يُعطى الاهتمام الذي يستحقه، رغم أنه قطعة نستخدمها يوميًا. لذلك قررنا إعادة التفكير في التفاصيل — من اختيار الخامات، إلى التصميم، إلى طريقة الخياطة — لنقدم جوربًا يجمع بين الراحة الحقيقية والجودة التي تدوم.
+
+نؤمن أن الجودة ليست رفاهية، بل معيار أساسي. ولهذا صُممت شراريب ران لتمنحك إحساسًا أفضل في كل خطوة، طوال يومك.
+
+لأن الأداء الحقيقي يبدأ من الأساس."
+
+English Content (accurate professional translation):
+"Sharareeb Run began with a simple question:
+Why shouldn’t socks truly be high quality?
+
+We noticed that many socks are treated as an afterthought, despite being something we wear every single day. So we rethought every detail — from material selection to design and stitching — to create socks that combine real comfort with lasting quality.
+
+We believe quality is not a luxury; it is a standard. That’s why Sharareeb Run socks are designed to give you a better feel in every step, throughout your day.
+
+Because real performance starts from the foundation."
+
+--------------------------------------------------
+MISSION SECTION (مهمتنا)
+--------------------------------------------------
+
+Arabic Title:
+"مهمتنا"
+
+English Title:
+"Our Mission"
+
+Arabic Text:
+"تقديم شراريب رياضية عالية الجودة تجمع بين الراحة، المتانة، والتصميم العصري — لتدعم حركتك وتمنحك أداءً أفضل في كل خطوة."
+
+English Text:
+"To deliver high-quality performance socks that combine comfort, durability, and modern design — supporting your movement and enhancing performance with every step."
+
+--------------------------------------------------
+WHY SHARAREEB RUN (SPORT BRAND STYLE)
+--------------------------------------------------
+
+Create 4 feature cards:
+
+Arabic / English:
+
+1.
+AR: "راحة رياضية"
+EN: "Athletic Comfort"
+
+2.
+AR: "خامات قابلة للتنفس"
+EN: "Breathable Materials"
+
+3.
+AR: "ثبات أثناء الحركة"
+EN: "Stay-Secure Fit"
+
+4.
+AR: "متانة تدوم"
+EN: "Built to Last"
+
+--------------------------------------------------
+DESIGN REQUIREMENTS
+--------------------------------------------------
+
+- Arabic layout must be RTL automatically when Arabic selected.
+- English layout LTR.
+- Keep sporty, clean, performance-focused design.
+- Use bold headings and strong spacing like modern sports brands.
+- Subtle motion animations (fade-in, hover lift).
+- Typography should feel athletic and modern.
+- Maintain premium minimal color usage.
+
+--------------------------------------------------
+LANGUAGE SYSTEM
+--------------------------------------------------
+
+Add language toggle (AR / EN).
+Store preference in localStorage.
+All texts must switch dynamically without page reload.
+
+--------------------------------------------------
+GOAL
+--------------------------------------------------
+
+Make the website feel like a real sports performance brand, not a generic store.
+Content should feel confident, energetic, and premium.

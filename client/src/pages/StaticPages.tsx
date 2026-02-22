@@ -12,24 +12,18 @@ const Wrapper = ({ title, children }: { title: string, children: React.ReactNode
 );
 
 export function About() {
-  const { lang, t } = useStore();
+  const { t } = useStore();
   return (
-    <Wrapper title={t('nav.story')}>
-      {lang === 'ar' ? (
-        <>
-          <p>بدأت قصة "شراريب ران" من حاجة بسيطة: العثور على جوارب تجمع بين الأناقة المطلقة والراحة الفائقة التي تدوم طوال اليوم دون أن تفقد شكلها أو جودتها.</p>
-          <p>نحن فريق شغوف بالتفاصيل، نعتقد أن الجورب ليس مجرد قطعة ملابس مخفية، بل هو أساس لراحة قدميك وثقتك بنفسك. نستخدم أفضل أنواع القطن والخيوط المرنة لضمان التهوية والدعم المناسبين.</p>
-          <h2>مهمتنا</h2>
-          <p>توفير منتجات عالية الجودة بأسعار تنافسية، مع التركيز على التصميم العصري الذي يناسب جميع الأذواق والمناسبات، من العمل المكتبي إلى التمارين الرياضية.</p>
-        </>
-      ) : (
-        <>
-          <p>The "Sharareeb Run" story started from a simple need: finding socks that combine absolute style with superior all-day comfort without losing their shape or quality.</p>
-          <p>We are a team passionate about details, believing that a sock is not just a hidden piece of clothing, but the foundation of your foot's comfort and your confidence. We use the finest cotton and elastic threads to ensure proper ventilation and support.</p>
-          <h2>Our Mission</h2>
-          <p>To provide high-quality products at competitive prices, focusing on modern design that suits all tastes and occasions, from office work to sports workouts.</p>
-        </>
-      )}
+    <Wrapper title={t('section.story')}>
+      <p className="text-xl leading-relaxed whitespace-pre-wrap">
+        {t('content.story')}
+      </p>
+      <div className="mt-16 p-8 bg-zinc-100 dark:bg-zinc-900 rounded-3xl not-prose">
+        <h2 className="text-2xl font-black mb-4 uppercase">{t('section.mission')}</h2>
+        <p className="text-lg text-muted-foreground">
+          {t('content.mission')}
+        </p>
+      </div>
     </Wrapper>
   );
 }

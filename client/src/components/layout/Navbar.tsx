@@ -36,8 +36,13 @@ export function Navbar() {
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         
         {/* Logo */}
-        <Link href="/" className="text-2xl font-black tracking-tighter shrink-0 hover:opacity-80 transition-opacity">
-          شراريب ران<span className="text-primary/60">.</span>
+        <Link href="/" className="flex flex-col items-start hover:opacity-80 transition-opacity">
+          <span className="text-2xl font-black tracking-tighter leading-none">
+            شراريب ران<span className="text-primary/60">.</span>
+          </span>
+          <span className="text-[10px] font-medium tracking-tight text-muted-foreground mt-0.5">
+            {t('nav.tagline')}
+          </span>
         </Link>
 
         {/* Desktop Nav */}
